@@ -17,8 +17,13 @@ export const VegStoreHeader = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6">Order Vegetables Online !!!</Typography>
-        <Button color="inherit" className="app-bar-login-btn">
-          Login
+        <Button
+          color="inherit"
+          className="app-bar-login-btn"
+          id="main-Logout"
+          type="button"
+        >
+          Logout
         </Button>
       </Toolbar>
     </AppBar>

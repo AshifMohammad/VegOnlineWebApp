@@ -7,9 +7,15 @@ import {
   Typography
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
+import { withVegStoreInventory } from "../../StoreContext";
 import "./style.css";
 
-export const VegStoreHeader = () => {
+const VegStoreHeader = props => {
+  // const onLogoutClick = () => {
+  //   useNavigation("SignUp");
+  // };
+
+  //TODO : Make an HOC withVegStoreInventory
   return (
     <AppBar className="app-bar-main">
       <Toolbar>
@@ -22,6 +28,7 @@ export const VegStoreHeader = () => {
           className="app-bar-login-btn"
           id="main-Logout"
           type="button"
+          onClick={() => console.log(props, "on lcick")}
         >
           Logout
         </Button>
@@ -29,3 +36,5 @@ export const VegStoreHeader = () => {
     </AppBar>
   );
 };
+
+export default withVegStoreInventory(VegStoreHeader);

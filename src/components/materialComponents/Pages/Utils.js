@@ -1,6 +1,7 @@
+import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
-import React from "react";
+import { useHistory } from "react-router-dom";
 
 export const CopyrightsPage = () => (
   <Typography variant="body2" color="textSecondary" align="center">
@@ -12,3 +13,13 @@ export const CopyrightsPage = () => (
     {"."}
   </Typography>
 );
+
+/*
+ * path = "/home"  as string*/
+
+export const useNavigation = path => {
+  const ROOT_PATH = process.env.PUBLIC_URL;
+
+  let history = useHistory();
+  history.push(`${ROOT_PATH}/${path}`);
+};

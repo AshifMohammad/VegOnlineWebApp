@@ -17,6 +17,8 @@ import {
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import { CopyrightsPage } from "./Utils";
 
+//TODO:  Validation setup for the login page
+
 export const SignUp = () => {
   return (
     <Container component="main" maxWidth="xs">

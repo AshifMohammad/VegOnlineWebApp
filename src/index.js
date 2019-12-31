@@ -1,9 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {App} from "./MainApp"
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import { App } from "./MainApp";
+import { VegStoreContextProvider } from "./StoreContext";
+
+import "./index.css";
 
 ReactDOM.render(
-    <App/>,
-    document.getElementById('root')
+  <VegStoreContextProvider>
+    <App />
+  </VegStoreContextProvider>,
+  document.getElementById("root")
 );

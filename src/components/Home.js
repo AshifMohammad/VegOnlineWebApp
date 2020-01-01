@@ -1,13 +1,10 @@
 import React from "react";
 import VegStoreHeader from "./materialComponents/AppBar";
-import { withVegStoreInventory } from "../StoreContext";
 
-export const Home = props => {
+export const Home = () => {
   return (
     <div>
       <VegStoreHeader />
     </div>
   );
 };
-
-export default withVegStoreInventory(Home);

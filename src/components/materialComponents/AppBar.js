@@ -9,7 +9,7 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
-import { withVegStoreInventory } from "../../StoreContext";
+import { withVegStoreInventory } from "../../storeContext";
 import { DrawerContents, DisplayContent } from "./DrawersContents";
 import "./style.css";
 

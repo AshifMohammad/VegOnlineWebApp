@@ -10,9 +10,15 @@ import { VegStoreContextConsumer } from "./VegStoreContextConsumer";
 export const withVegStoreInventory = WrappedComponent => props => {
   return (
     <VegStoreContextConsumer>
-      {VegStoreContext => (
-        <WrappedComponent inventoryDetailRecords={VegStoreContext} {...props} />
-      )}
+      {([state, dispatch]) => {
+        return (
+          <WrappedComponent
+            InventoryState={state}
+            dispatch={dispatch}
+            {...props}
+          />
+        );
+      }}
     </VegStoreContextConsumer>
   );
 };

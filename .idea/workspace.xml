@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e679ba2e-d068-4e56-8dae-10da71661bd3" name="Default Changelist" comment="" />
+    <list default="true" id="e679ba2e-d068-4e56-8dae-10da71661bd3" name="Default Changelist" comment="added sidebar">
+      <change afterPath="$PROJECT_DIR$/src/reducers/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/storeReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContext/VegStoreContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeContext/VegStoreContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContext/VegStoreContextConsumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeContext/VegStoreContextConsumer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContext/VegStoreContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeContext/VegStoreContextProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContext/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeContext/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContext/inventoryStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeContext/inventoryStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContext/withVegStoreData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeContext/withVegStoreData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/materialComponents/AppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/materialComponents/AppBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +24,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Less File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VQ8rfkHqG94cniXy4KePRTgYBI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.karma.karma_node_package_dir" value="" />
@@ -36,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/officeFabricComponents" />
     </key>
   </component>
@@ -63,9 +83,53 @@
       <updated>1577174158091</updated>
       <workItem from="1577174159279" duration="7815000" />
     </task>
+    <task id="LOCAL-00001" summary="Added google login logic">
+      <created>1577448274082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577448274082</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removed lock files">
+      <created>1577448482192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577448482192</updated>
+    </task>
+    <task id="LOCAL-00003" summary="context plugged in">
+      <created>1577806830509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577806830509</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added sidebar">
+      <created>1577811983781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577811983781</updated>
+    </task>
+    <task id="LOCAL-00005" summary="package logged in">
+      <created>1577812485847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577812485847</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added google login logic" />
+    <MESSAGE value="removed lock files" />
+    <MESSAGE value="context plugged in" />
+    <MESSAGE value="added sidebar" />
+    <MESSAGE value="package logged in" />
+    <option name="LAST_COMMIT_MESSAGE" value="package logged in" />
   </component>
 </project>

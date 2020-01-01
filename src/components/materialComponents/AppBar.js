@@ -11,9 +11,10 @@ import MenuIcon from "@material-ui/icons/Menu";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import { withVegStoreInventory } from "../../storeContext";
 import { DrawerContents, DisplayContent } from "./DrawersContents";
+import { PageUnderConstruction } from "../materialComponents/Pages/PageUnderConstruction";
 import "./style.css";
 
-const VegStoreHeader = props => {
+const VegStoreHome = props => {
   const [open, setOpen] = useState(false);
 
   const handleDrawerOpen = () => setOpen(!open);
@@ -44,12 +45,12 @@ const VegStoreHeader = props => {
           </Button>
         </Toolbar>
       </AppBar>
+
       <Drawer open={open} variant="persistent" anchor="left">
         <DrawerContents />
       </Drawer>
-      <DisplayContent />
     </div>
   );
 };
 
-export default withVegStoreInventory(VegStoreHeader);
+export default withVegStoreInventory(VegStoreHome);

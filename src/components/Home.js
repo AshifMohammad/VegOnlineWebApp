@@ -1,10 +1,13 @@
 import React from "react";
-import VegStoreHeader from "./materialComponents/AppBar";
+import VegStoreHome from "./materialComponents/AppBar";
+import { DisplayContent } from "./materialComponents/DrawersContents";
+import { PageUnderConstruction } from "./materialComponents/Pages/PageUnderConstruction";
 
 export const Home = () => {
   return (
     <div>
-      <VegStoreHeader />
+      <VegStoreHome />
+      <DisplayContent Component={PageUnderConstruction} />
     </div>
   );
 };

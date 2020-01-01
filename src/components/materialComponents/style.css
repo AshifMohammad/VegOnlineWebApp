@@ -1,3 +1,4 @@
 .app-bar-login-btn {
-  margin-left: 75vw !important;
+  position: sticky;
+  left: 85vw !important;
 }
